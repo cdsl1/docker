@@ -1,6 +1,4 @@
 FROM php:7.1.9
-MAINTAINER yefengli <2684498887@qq.com>
-
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
